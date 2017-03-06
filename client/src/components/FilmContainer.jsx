@@ -16,9 +16,9 @@ var FilmContainer = React.createClass({
       <div className="film-container">
         <p id="title">UK Opening this week</p>
         <FilmList films={sampleData}/>
-        <a href="https://www.google.com">See more opening this week >></a>
+        <a href="https://www.google.com">See more opening this week »</a>
         <hr id="separating-hr"/>
-        <button>Get Showtimes >></button>
+        <button>Get Showtimes »</button>
         <hr />
       </div>
     );

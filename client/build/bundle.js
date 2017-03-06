@@ -21719,13 +21719,13 @@ var FilmContainer = React.createClass({
       React.createElement(
         'a',
         { href: 'https://www.google.com' },
-        'See more opening this week >>'
+        'See more opening this week \xBB'
       ),
       React.createElement('hr', { id: 'separating-hr' }),
       React.createElement(
         'button',
         null,
-        'Get Showtimes >>'
+        'Get Showtimes \xBB'
       ),
       React.createElement('hr', null)
     );
