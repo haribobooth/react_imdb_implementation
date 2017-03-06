@@ -68,6 +68,10 @@ p {
   margin-right: 50px;
 }
 
+.film p:hover {
+  cursor: pointer;
+}
+
 .film a {
   float: right
 }
@@ -92,6 +96,7 @@ button{
 
 button:hover{
   background-color: #035CA2;
+  cursor: pointer;
 }
 
 button:active{

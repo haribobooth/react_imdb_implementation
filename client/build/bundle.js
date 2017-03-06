@@ -21701,7 +21701,7 @@ window.onload = function () {
 var React = __webpack_require__(80);
 var FilmList = __webpack_require__(179);
 
-var sampleData = [{ id: 1, title: "Titanic", link: "https://www.google.com" }, { id: 2, title: "Avatar", link: "https://www.google.com" }, { id: 3, title: "Toy Story", link: "https://www.google.com" }, { id: 4, title: "Pulp Fiction", link: "https://www.google.com" }];
+var sampleData = [{ id: 1, title: "Titanic", link: "https://www.google.com" }, { id: 2, title: "Avatar", link: "https://www.google.com" }, { id: 3, title: "Toy Story", link: "https://www.google.com" }, { id: 4, title: "Pulp Fiction", link: "https://www.google.com" }, { id: 5, title: "Ant-Man", link: "https://www.google.com" }, { id: 6, title: "John Wick", link: "https://www.google.com" }];
 
 var FilmContainer = React.createClass({
   displayName: 'FilmContainer',
