@@ -3,6 +3,10 @@ body{
   text-align: center;
 }
 
+hr {
+  border-color: #DFDFDF;
+}
+
 a {
   text-decoration: none;
   color: #136CB2;
@@ -28,11 +32,12 @@ p {
 }
 
 .film-container {
-  border: 2px solid black;
+  border: 2px solid #DFDFDF;
   width: 250px;
   margin: 0 auto;
   padding: 5px;
-  text-align: left
+  text-align: left;
+  background-color: #F1F1F1;
 }
 
 .film-container a {
