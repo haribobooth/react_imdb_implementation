@@ -1,5 +1,6 @@
 var React = require('react');
 var FilmList = require('./FilmList.jsx');
+var Footer = require('./Footer.jsx');
 
 var sampleData = [
   {id: 1, title: "Titanic", link: "https://www.google.com"},
@@ -16,10 +17,7 @@ var FilmContainer = React.createClass({
       <div className="film-container">
         <p id="title">UK Opening this week</p>
         <FilmList films={sampleData}/>
-        <a href="https://www.google.com">See more opening this week »</a>
-        <hr id="separating-hr"/>
-        <button>Get Showtimes »</button>
-        <hr />
+        <Footer />
       </div>
     );
   },
